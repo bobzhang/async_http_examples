@@ -1,9 +1,7 @@
 {
   "is-main": true,
   "import": [
-    {
-      "path": "bobzhang/async_http_examples",
-      "alias": "lib"
-    }
+   "moonbitlang/async",
+   "moonbitlang/async/http"
   ]
 }
