@@ -1,13 +1,9 @@
 ///|
-fn main {
-  @async.with_event_loop(_ => {
-    let (_, result) = @http.get("https://www.baidu.com")
-    // FIXME: www.google.com not work
-    // log.write_string(@bytes_util.ascii_to_string(result))
-    println(result[:].ascii_to_string())
-  }) catch {
-    err => println(err)
-  }
+async fn main {
+  let (_, result) = @http.get("https://www.google.com")
+  // FIXME: www.google.com not work
+  // log.write_string(@bytes_util.ascii_to_string(result))
+  println(result[:].ascii_to_string())
 }
 
 ///|
