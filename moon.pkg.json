@@ -1,4 +1,3 @@
 {
-    "import" : ["moonbitlang/async"],
-    "test-import":["moonbitlang/async/http"]
+  "test-import": ["moonbitlang/async", "moonbitlang/async/http"]
 }
