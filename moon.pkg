@@ -1,4 +1,5 @@
 import {
+  "moonbitlang/async/socket",
   "moonbitlang/async",
   "moonbitlang/async/http",
 } for "test"
