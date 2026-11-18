@@ -3,7 +3,7 @@ name = "bobzhang/async_http_examples"
 version = "0.1.0"
 
 import {
-  "moonbitlang/async@0.7.0",
+  "moonbitlang/async@0.22.9",
 }
 
 readme = "README.md"
